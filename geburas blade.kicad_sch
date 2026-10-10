@@ -1581,12 +1581,6 @@
 		)
 	)
 	(junction
-		(at 114.3 59.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "091a8f7f-e2fd-4a79-a15c-cfb72fb62903")
-	)
-	(junction
 		(at 99.06 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1617,6 +1611,12 @@
 		(uuid "250b1ee4-29ab-4b71-a78e-4e15225716a3")
 	)
 	(junction
+		(at 114.3 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25862495-dedf-474d-831a-18356f58d26f")
+	)
+	(junction
 		(at 106.68 59.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1633,6 +1633,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4508b6fc-3e9d-4e18-a4b0-3024ee17418a")
+	)
+	(junction
+		(at 124.46 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "464e0cff-dd8e-48d2-bd78-342afa3a0076")
 	)
 	(junction
 		(at 199.39 99.06)
@@ -1663,12 +1669,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba9d2d4b-fc1b-4aa2-853f-578caf251aed")
-	)
-	(junction
-		(at 123.19 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bbd8ce73-e554-416d-905a-35d8edb16ba6")
 	)
 	(junction
 		(at 123.19 67.31)
@@ -1738,6 +1738,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 59.69) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b64fb96-0460-4598-a87c-0ed758b2d874")
+	)
+	(wire
+		(pts
 			(xy 219.71 69.85) (xy 182.88 33.02)
 		)
 		(stroke
@@ -1748,17 +1758,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 59.69) (xy 123.19 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2e7f51-8f07-4a5a-9941-62fee6d1ceca")
-	)
-	(wire
-		(pts
-			(xy 114.3 59.69) (xy 115.57 59.69)
+			(xy 116.84 59.69) (xy 116.84 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1818,6 +1818,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 59.69) (xy 114.3 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31a6bd90-ac8d-4674-93aa-2d61fbe80c4f")
+	)
+	(wire
+		(pts
 			(xy 199.39 77.47) (xy 199.39 88.9)
 		)
 		(stroke
@@ -1825,6 +1835,16 @@
 			(type default)
 		)
 		(uuid "31c22d1b-1aa5-4734-996f-f5f7f0c3886b")
+	)
+	(wire
+		(pts
+			(xy 124.46 59.69) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32b41e26-d6d4-42c4-af8e-bb1e516e49bb")
 	)
 	(wire
 		(pts
@@ -1845,6 +1865,16 @@
 			(type default)
 		)
 		(uuid "3c0f0b14-f83f-4d0a-b7cd-8df02c4dea34")
+	)
+	(wire
+		(pts
+			(xy 124.46 60.96) (xy 123.19 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45f49d2a-fcfd-42a2-a298-ead6fcc90ebd")
 	)
 	(wire
 		(pts
@@ -1905,16 +1935,6 @@
 			(type default)
 		)
 		(uuid "5ee8def9-73ca-491d-8664-5f7a6e99a059")
-	)
-	(wire
-		(pts
-			(xy 132.08 52.07) (xy 123.19 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "676748ee-9d2d-47a4-9df1-b1f38ebc632e")
 	)
 	(wire
 		(pts
@@ -2335,6 +2355,121 @@
 			(type default)
 		)
 		(uuid "fe6b87d6-1df6-4342-9245-25f76499cc27")
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 124.46 54.61 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "198addeb-2a42-455f-8cd2-a4892e44f82d")
+		(property "Reference" "BT2"
+			(at 128.27 55.1814 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 128.27 57.7214 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+			(at 124.46 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 56.134 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 124.46 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6196a295-f376-4151-8750-c35661626925")
+		)
+		(pin "1"
+			(uuid "e57cade3-ca49-4fd3-8a58-a974697e2734")
+		)
+		(instances
+			(project "geburas blade"
+				(path "/889b1eb3-ca63-402a-9f9b-9b103397520c"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3054,7 +3189,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 118.11 59.69 270)
+		(at 119.38 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3065,7 +3200,7 @@
 		(fields_autoplaced yes)
 		(uuid "b18a4532-dc58-4908-8486-3a3196d6b54f")
 		(property "Reference" "BT1"
-			(at 119.9515 52.07 90)
+			(at 121.2215 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3075,7 +3210,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 119.9515 54.61 90)
+			(at 121.2215 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3084,8 +3219,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Battery:BatteryHolder_Keystone_1060_1x2032"
-			(at 119.634 59.69 90)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+			(at 120.904 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3096,7 +3231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.634 59.69 90)
+			(at 120.904 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3107,7 +3242,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 118.11 59.69 0)
+			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3118,7 +3253,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 118.11 59.69 0)
+			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3129,7 +3264,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 118.11 59.69 0)
+			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3140,7 +3275,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 118.11 59.69 0)
+			(at 119.38 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
