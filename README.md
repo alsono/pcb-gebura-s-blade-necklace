@@ -22,3 +22,4 @@ bill of materials for what you'll need (all comes in the solder kit from the hac
 |R3            |1  |47k         |   |                |                  |Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical|                                                                          |
 |SW2           |1  |SW_Push     |   |                |                  |Button_Switch_THT:KSA_Tactile_SPST                         |                                                                          |
 |U2            |1  |ICM7555xP   |   |                |                  |Package_DIP:DIP-8_W7.62mm                                  |http://www.intersil.com/content/dam/Intersil/documents/icm7/icm7555-56.pdf|
+### my slack id is U0A5NF4LR8U
